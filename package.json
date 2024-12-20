@@ -4,6 +4,7 @@
   "description": "erikwild.com deployment",
   "main": "index.js",
   "scripts": {
+    "build": "mkdir -p dist && cp -r index.html styles.css src/* dist/",
     "start": "echo \"Starting static server\" && serve .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
